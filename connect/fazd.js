@@ -24,7 +24,7 @@ const { color } = require("../lib/color")
 const { exec } = require("child_process")
 const { getBuffer, fetchJson, fetchText, getRandom, getGroupAdmins, runtime, sleep } = require("../lib/myfunc");
 sph = "き⃟🌹"
-fake = "Fazd-bot created by Ardy"
+fake = "bot by ꋬ꒐ꂵꋬꋊ"
 
 let setting = JSON.parse(fs.readFileSync("./setting.json"))
 let mess = JSON.parse(fs.readFileSync('./connect/mess.json'));
@@ -129,13 +129,13 @@ var buatpesan = await generateWAMessageFromContent(from, {
           {
             "urlButton": {
               "displayText": "Github Owner",
-              "url": "https://github.com/ArdyBotzz"
+              "url": "https://github.com/ai-man-123"
             }
           },
           {
             "callButton": {
               "displayText": "Call Owner",
-              "phoneNumber": "6287863200063"
+              "phoneNumber": "60102810046"
             }
           },
           {
@@ -320,15 +320,15 @@ await sendButton5(from, menunya, fake, await fazd.createMessage(from, {image: {u
 
 case "donasi":
 fazd.sendMessage(from, {text: `${sph}  Donasi
-*Gopay* : _08813647351_
-*Dana* : _08813647351_
+*pulsa* : _60102810046_
+*pulsa* : _60102810046_
 ${sph}  Donasi Seikhlas Nya`, quoted: msg})
 break
 
 case "sc":
 case "sourcecode":
 case "scriptbot":
-fazd.sendMessage(from, {text: `Pastinya bukan sc gh atau sc yt:v`, quoted: msg})
+fazd.sendMessage(from, {texthttps://github.com/ai-man-123/azy1`, quoted: msg})
 break
 
 case "setprefix":
