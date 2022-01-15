@@ -1,5 +1,5 @@
 exports.menu = (prefix) => {
-let usep = "き⃟🌹"
+let usep = "き⃟🛐"
 return `┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ${usep} Jika Fitur Error Silahkan Hubungi Owner
 
